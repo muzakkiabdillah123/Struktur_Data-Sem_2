@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct simpul { //beda
+struct simpul { 
     struct edge * jalur;
     struct simpul * next;
     char id_simpul;
@@ -84,6 +84,6 @@ void cetak_graph (struct graph * g)
 
 int main()
 {
-    struct simpul * gr = NULL;
+    struct simpul * gr;
     gr = create_simpul(&gr,"A");
 }
